@@ -1,4 +1,5 @@
 import axios from "axios";
+
 export const getData = async url => {
   try {
     const res = await axios.get(url);
